@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-class LoginLocators():
+class LoginLocators:
 
     email_field = (By.NAME, 'email')
     password_field = (By.NAME, 'password')
